@@ -1,6 +1,6 @@
 # Weather App
 
-Hola! Bienvenido,
+Hello! Welcome,
 
 
 # Introduction
