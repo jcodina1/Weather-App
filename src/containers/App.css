@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: grid;  
+  height: 100vh;
+  
+  background-image: url('../img/fondo.jpg') ;
+  
+ 
+}
+
+.App {
+  text-align: center;
+  place-items: center;
+ }
+
+.row {
+  display: flex;
+  justify-content: center;
+  
+}
+
+

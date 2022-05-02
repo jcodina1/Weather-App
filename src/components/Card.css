@@ -1,0 +1,28 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  background-color: #eeebeb71;
+  border-style: none;  
+  color:rgb(53, 48, 48);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 3px #999;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  color: rgb(53, 48, 48);
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+

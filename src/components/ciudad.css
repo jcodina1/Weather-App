@@ -1,0 +1,65 @@
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  background-color: #eeebeb71;
+  border-style: none;  
+  color:rgb(53, 48, 48);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 3px #999;
+}
+
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: center ;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: 2rem;
+  
+  
+}
+
+.iconoClima{
+  width:80px;
+  height:80px;
+  
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+ 
+}
+
+
+/* .card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+} */
+
+
+
+
+
